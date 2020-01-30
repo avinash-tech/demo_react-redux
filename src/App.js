@@ -1,10 +1,11 @@
 
 import React, { Component } from 'react';
-import { Switch, Route ,BrowserRouter} from 'react-router-dom';
+import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
 import About from './components/About';
-import Contact from './components/Contact';
 import Navbar from './components/navbar/Navbar'
+import AddEmployee from './components/AddEmployee';
+import Home from './components/home/Home';
 
 
 
@@ -14,16 +15,16 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-      <Switch>
-        
-        <Route exact path="/" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route path ="/navbar" component ={Navbar}
-       />
-       
-       
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/addemployee" component={AddEmployee} />
+          <Route path="/navbar" component={Navbar}
+          />
 
-      </Switch>
+
+
+        </Switch>
       </BrowserRouter>
     );
   }

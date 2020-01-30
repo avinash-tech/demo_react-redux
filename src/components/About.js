@@ -22,7 +22,7 @@ class About extends Component {
         console.log("isLoading",this.props.isLoading)
         return (
             <div className="About">
-                <h2>Employees Details...</h2>
+                <h2>Employees Details..----------------------------------.</h2>
                 <div>
                     {
                         this.props.employeeData && this.props.employeeData.map((item, index) => (
@@ -33,10 +33,7 @@ class About extends Component {
                                     <h3>Employee Name:-{item.employee_name}</h3>
                                     <h3>Employee Age:-{item.employee_age}</h3>
                                     <h3>Employee Salary:-{item.employee_salary}</h3>
-
-
-                                </div>
-
+                               </div>
                             </>
 
                         ))
@@ -44,7 +41,7 @@ class About extends Component {
                 </div>
 
 
-            </div >
+            </div>
         )
     }
 }

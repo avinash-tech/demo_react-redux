@@ -20,3 +20,10 @@ code {
 
 
 }
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  margin-left: 421px;
+  margin-right: -265px;
+  margin-top: 156px;
+}
