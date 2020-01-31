@@ -22,7 +22,7 @@ class About extends Component {
         console.log("isLoading",this.props.isLoading)
         return (
             <div className="About">
-                <h2>Employees Details..----------------------------------.</h2>
+                <h2>Employees Details(Mobcoder Employee.....)</h2>
                 <div>
                     {
                         this.props.employeeData && this.props.employeeData.map((item, index) => (

@@ -22,7 +22,7 @@ class Home extends Component {
             <div className="">
                 <div >
                 
-                <h1 className="text-center">Add & get employee......</h1>
+                <h1 className="heading">Add & get employee......</h1>
                     <button type="button"  name="save" className="btn btn-primary" onClick={this.handleAddEmployeeList}>addEmployee</button>
                    
                     <button  type="button" className="col-lg-4 offset-4" name="save" className="btn btn-success" onClick={this.handleGetEmployeeList}>getEmployee</button>
